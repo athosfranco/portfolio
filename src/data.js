@@ -5,7 +5,7 @@ import organizzerMockup from "./img/todomockup.png";
 
 export const data = {
   about: {
-    pt: `Olá! Me chamo Athos Franco, tenho 26 anos e sou um programador auto-didata. Utilizo JavaScript e todo o seu
+    pt: `Olá! Me chamo Athos Franco, tenho 26 anos e sou um programador autodidata. Utilizo JavaScript e todo o seu
         ecossistema de tecnologias modernas para desenvolver soluções para a web.`,
     en: `Hello! My name is Athos Franco, im 26 years old and i'm a self taught web developer. My main language is JavaScript and i use modern javascript-related technologies and frameworks to develop web solutions.`,
   },
