@@ -41,7 +41,7 @@ const Project = ({ id, title, desc, stack, img, url, rep, lang }) => {
           <LinkContainer>
             <ExternalLink href={url} target="_blank">
               <FaPlay style={{ marginRight: "5px" }} />
-              Ver Demo
+              {lang ? "Ver Demo" : "Live Demo"}
             </ExternalLink>
             <ExternalLink href={rep} target="_blank">
               <FiGithub style={{ marginRight: "5px" }} />
