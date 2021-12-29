@@ -76,7 +76,7 @@ const Header = ({ lang }) => {
           data-aos-delay={window.innerWidth < 800 ? "0" : "600"}
           data-aos-duration={"1000"}
         >
-          Fullstack Web Developer
+          Frontend Web Developer
         </HeaderH2>
 
         <AboutMeText

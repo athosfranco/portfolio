@@ -96,7 +96,7 @@ export const ColorControl = styled.div`
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 1rem;
+  margin: 2.5rem;
 `;
 
 export const ColorTheme = styled.button`
@@ -117,7 +117,7 @@ export const LanguageControl = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 1rem;
+  margin: 2.5rem;
 `;
 
 export const LanguageToggler = styled.button`
