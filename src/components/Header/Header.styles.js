@@ -74,7 +74,7 @@ export const HeaderH2 = styled.h2`
 
 export const Skill = styled.p`
   background-color: #111111;
-  box-shadow: 1px 6px 15px 5px rgba(0, 0, 0, 0.62);
+
   padding: 8px 12px;
   border-radius: 5px;
   font-size: 18px;

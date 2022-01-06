@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import bg from "./img/bgwallp.jpg";
+import bg from "./img/tactile_noise.png";
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
 }
 
+//Barra de scroll
 ::-webkit-scrollbar{
 width: 6px;
 height: 10px;
@@ -32,7 +33,6 @@ body {
   background-color: #242423;
   background: url(${bg});
   background-attachment: fixed;
-  background-size: cover;
   color: #bfbfbf;
   cursor: default;
   overflow-x: hidden;
