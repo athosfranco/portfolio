@@ -56,7 +56,7 @@ const Header = ({ lang }) => {
           </ExternalLink>
           <ExternalLink
             data-tip={lang ? "Ver meu Currículo" : "View my Resume"}
-            href="https://drive.google.com/file/d/1DfWw-qZzu0sxadB0L5gOVrS_MKWM-y7O/view?usp=sharing"
+            href={data.about.resumeUrl}
             target="_blank"
           >
             <FiFileText />

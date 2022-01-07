@@ -10,6 +10,8 @@ export const data = {
     pt: `Olá! Me chamo Athos Franco, tenho 26 anos e sou um programador autodidata. Utilizo JavaScript e todo o seu
         ecossistema de tecnologias modernas para desenvolver soluções para a web. Atualmente sou Desenvolvedor Front End Júnior e estou estudando para me tornar um desenvolvedor Full Stack.`,
     en: `Hello! My name is Athos Franco, im 26 years old and i'm a self taught web developer. My main language is JavaScript and i use modern javascript-related technologies and frameworks to develop web solutions. I'm currently working as a Junior Front End Developer and i'm studying to become a Full Stack Web Dev.`,
+
+    resumeUrl: "https://drive.google.com/file/d/1FP5HSgZIgJ8A5Btmlt9WWOFVti4WtEnO/view?usp=sharing",
   },
   skills: [
     "JavaScript ES6+",

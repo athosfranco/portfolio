@@ -16,6 +16,7 @@ import {
 } from "./Sidebar.styles";
 import { IoLanguage } from "react-icons/io5";
 import ReactTooltip from "react-tooltip";
+import { data } from "../../data";
 
 const Sidebar = ({ onGetThemeColor, onGetLang, onGetScrollSection, lang }) => {
   //State do sidebar
@@ -61,11 +62,7 @@ const Sidebar = ({ onGetThemeColor, onGetLang, onGetScrollSection, lang }) => {
           </SidebarItem>
           <SidebarItem>
             <SidebarSpan>
-              <a
-                href="https://drive.google.com/file/d/1DfWw-qZzu0sxadB0L5gOVrS_MKWM-y7O/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={data.about.resumeUrl} target="_blank" rel="noreferrer">
                 {lang ? "Currículo" : "Resume"}
               </a>
             </SidebarSpan>
