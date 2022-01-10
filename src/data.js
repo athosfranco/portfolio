@@ -54,19 +54,19 @@ export const data = {
       rep: "https://github.com/athosfranco/dashboard-react-ui",
       img: minibankMockup,
     },
+    // {
+    //   id: 3,
+    //   title: `Dashboard Médico`,
+    //   desc: `Este dashboard foi desenvolvido durante um teste para uma Startup em São Paulo. O teste consistia em desenvolver o dashboard com React seguindo o design enviado no Figma. A página é 100% responsiva.`,
+    //   descEn: `
+    //   This dashboard was developed during a test for a Startup in São Paulo. The test consisted of developing the dashboard with React following the design sent in Figma. The page is 100% responsive.`,
+    //   stack: ["React", "Styled Components", "Figma"],
+    //   url: "https://dashboard-react-ui.netlify.app/",
+    //   rep: "https://github.com/athosfranco/dashboard-react-ui",
+    //   img: dashboardMockup,
+    // },
     {
       id: 3,
-      title: `Dashboard Médico`,
-      desc: `Este dashboard foi desenvolvido durante um teste para uma Startup em São Paulo. O teste consistia em desenvolver o dashboard com React seguindo o design enviado no Figma. A página é 100% responsiva.`,
-      descEn: `
-      This dashboard was developed during a test for a Startup in São Paulo. The test consisted of developing the dashboard with React following the design sent in Figma. The page is 100% responsive.`,
-      stack: ["React", "Styled Components", "Figma"],
-      url: "https://dashboard-react-ui.netlify.app/",
-      rep: "https://github.com/athosfranco/dashboard-react-ui",
-      img: dashboardMockup,
-    },
-    {
-      id: 4,
       title: `Hulu Clone`,
       desc: `Um clone da interface do aplicativo de streaming Hulu
       que desenvolvi com NextJs e TailwindCss. O objetivo ao desenvolver esta página foi colocar em prática algumas técnicas de Front-End que aprendi, como aplicar "Lazy Loading" no carregamento das imagens e Server Side Rendering (SSR) com NextJs. O projeto usa a API do MovieDB para alimentar a interface com dados.
@@ -79,7 +79,7 @@ export const data = {
       img: huluMockup,
     },
     {
-      id: 5,
+      id: 4,
       title: `Alfredo's Pizzeria`,
       desc: `Uma página de uma pizzaria fictícia. É possível visualizar um cardápio e adicionar/remover produtos a um "carrinho" (lista de produtos do pedido). Pude colocar em prática conceitos Front-End de responsividade e desenvolver componentes reutilizáveis com Styled Components.`,
       descEn: `A React web app of a fictitious pizzeria. You can add/remove products to a "cart". The main objective of this small project was to put into practice Front-End concepts of responsiveness and develop reusable components with Styled Components.`,
@@ -89,7 +89,7 @@ export const data = {
       img: alfredosMockup,
     },
     {
-      id: 6,
+      id: 5,
       title: `Organizzer`,
       desc: `Um simples "Todo App" desenvolvido durante meus estudos em JavaScript. Você pode criar tarefas, definir um prazo para sua conclusão, editar uma tarefa criada anteriormente, marcá-la como concluída e também excluir tarefas. É o meu primeiro CRUD. O aplicativo está disponível em dois idiomas (inglês e português) e possui dois esquemas de cores (diurno e noturno). Tarefas e configurações são armazenadas no armazenamento local do navegador. O usuário também pode organizar a ordem em que as tarefas são exibidas.`,
       descEn: `This is a simple "Todo" app developed during my studies in JavaScript. You can create tasks, set a deadline for their completion (or set no deadline at all), edit a previously created task, mark it as completed and also, of course, delete previously created tasks. It's my first ever CRUD. The app is available in two languages (English and Portuguese), in addition to having two color schemes (light and dark/day and night). Setting the language and color scheme is done by the user within the application itself. Tasks and settings are stored on the browser's local storage.`,
