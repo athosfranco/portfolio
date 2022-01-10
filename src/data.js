@@ -2,7 +2,7 @@ import cryptoMockup from "./img/cryptomockup.png";
 import huluMockup from "./img/hulumockup.png";
 import alfredosMockup from "./img/alfredosmockup.png";
 import organizzerMockup from "./img/todomockup.png";
-import dashboardMockup from "./img/dashboard_mockup.png";
+// import dashboardMockup from "./img/dashboard_mockup.png";
 import minibankMockup from "./img/minibank_mockup.png";
 
 export const data = {
