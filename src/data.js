@@ -4,6 +4,7 @@ import alfredosMockup from "./img/alfredosmockup.png";
 import organizzerMockup from "./img/todomockup.png";
 // import dashboardMockup from "./img/dashboard_mockup.png";
 import minibankMockup from "./img/minibank_mockup.png";
+import climaVueMockup from "./img/climavuemockup.png";
 
 export const data = {
   about: {
@@ -16,6 +17,7 @@ export const data = {
   skills: [
     "JavaScript ES6+",
     "React",
+    "VueJs",
     "REST API",
     "NextJs",
     "Bootstrap 5",
@@ -90,6 +92,16 @@ export const data = {
     },
     {
       id: 5,
+      title: `Clima Vue`,
+      desc: `Esta SPA consome uma API pública e retorna a temperatura atual de qualquer cidade ao redor do mundo. Foi desenvolvida com o objetivo de aprender a utilizar o framework Vue.`,
+      descEn: `This simple SPA consumes a public API and returns the current temperature of any city around the world. It was developed in order to learn how to use the Vue framework.`,
+      stack: ["VueJs", "Consumo de API com Fetch"],
+      url: "https://vue-weather-athos.netlify.app/",
+      rep: "https://github.com/athosfranco/vue-weather-app",
+      img: climaVueMockup,
+    },
+    {
+      id: 6,
       title: `Organizzer`,
       desc: `Um simples "Todo App" desenvolvido durante meus estudos em JavaScript. Você pode criar tarefas, definir um prazo para sua conclusão, editar uma tarefa criada anteriormente, marcá-la como concluída e também excluir tarefas. É o meu primeiro CRUD. O aplicativo está disponível em dois idiomas (inglês e português) e possui dois esquemas de cores (diurno e noturno). Tarefas e configurações são armazenadas no armazenamento local do navegador. O usuário também pode organizar a ordem em que as tarefas são exibidas.`,
       descEn: `This is a simple "Todo" app developed during my studies in JavaScript. You can create tasks, set a deadline for their completion (or set no deadline at all), edit a previously created task, mark it as completed and also, of course, delete previously created tasks. It's my first ever CRUD. The app is available in two languages (English and Portuguese), in addition to having two color schemes (light and dark/day and night). Setting the language and color scheme is done by the user within the application itself. Tasks and settings are stored on the browser's local storage.`,
