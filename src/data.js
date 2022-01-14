@@ -4,7 +4,8 @@ import alfredosMockup from "./img/alfredosmockup.png";
 import organizzerMockup from "./img/todomockup.png";
 // import dashboardMockup from "./img/dashboard_mockup.png";
 import minibankMockup from "./img/minibank_mockup.png";
-import climaVueMockup from "./img/climavuemockup.png";
+// import climaVueMockup from "./img/climavuemockup.png";
+import vuetifyMockup from "./img/vuetifymockup.png";
 
 export const data = {
   about: {
@@ -92,13 +93,13 @@ export const data = {
     },
     {
       id: 5,
-      title: `Clima Vue`,
-      desc: `Esta SPA consome uma API pública e retorna a temperatura atual de qualquer cidade ao redor do mundo. Foi desenvolvida com o objetivo de aprender a utilizar o framework Vue.`,
-      descEn: `This simple SPA consumes a public API and returns the current temperature of any city around the world. It was developed in order to learn how to use the Vue framework.`,
+      title: `Digital Web`,
+      desc: `Uma Landing Page que desenvolvida com Vue, utilizando a biblioteca Vuetify para os componentes da interface. Este projeto foi desenvolvido para colocar em prática meus estudos pessoais de VueJs. `,
+      descEn: `This landing page was developed with Vue, using the Vuetify library for the interface components. This project was developed to put into practice my personal VueJs studies..`,
       stack: ["VueJs", "Consumo de API com Fetch"],
-      url: "https://vue-weather-athos.netlify.app/",
-      rep: "https://github.com/athosfranco/vue-weather-app",
-      img: climaVueMockup,
+      url: "https://vuetify-landing-page.netlify.app/",
+      rep: "https://github.com/athosfranco/vuetify-landing-page",
+      img: vuetifyMockup,
     },
     {
       id: 6,
