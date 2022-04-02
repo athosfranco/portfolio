@@ -76,7 +76,7 @@ const Header = ({ lang }) => {
           data-aos-delay={window.innerWidth < 800 ? "0" : "600"}
           data-aos-duration={"1000"}
         >
-          Frontend Web Developer
+          Fullstack Web Developer
         </HeaderH2>
 
         <AboutMeText
@@ -102,13 +102,6 @@ const Header = ({ lang }) => {
             return <Skill>{s}</Skill>;
           })}
         </SkillsContainer>
-        <InfoSpan
-          data-aos={"fade-down"}
-          data-aos-delay={window.innerWidth < 800 ? "0" : "1900"}
-          data-aos-duration={"1000"}
-        >
-          {lang ? "*Atualmente estudando" : "*Currently learning"}
-        </InfoSpan>
       </RightContainer>
     </HeaderContainer>
   );
