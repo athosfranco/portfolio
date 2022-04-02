@@ -11,7 +11,6 @@ import {
   SkillsContainer,
   SocialMediaContainer,
   AboutMeText,
-  InfoSpan,
   ExternalLink,
 } from "./Header.styles";
 import { FaLinkedinIn } from "react-icons/fa";
