@@ -8,7 +8,6 @@ import { ThemeProvider } from "styled-components";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer/Footer";
-import { LanguageControl, LanguageToggler } from "./components/Sidebar/Sidebar.styles";
 import { IoLanguage } from "react-icons/io5";
 
 function App() {
