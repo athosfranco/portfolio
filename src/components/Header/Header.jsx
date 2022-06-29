@@ -55,7 +55,7 @@ const Header = ({ lang }) => {
           </ExternalLink>
           <ExternalLink
             data-tip={lang ? "Ver meu Currículo" : "View my Resume"}
-            href={data.about.resumeUrl}
+            href={lang ? data.about.resumeUrl : data.about.resumeUrlEnglish}
             target="_blank"
           >
             <FiFileText />

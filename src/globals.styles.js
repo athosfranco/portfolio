@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 import bg from "./img/tactile_noise.png";
 
 export const GlobalStyle = createGlobalStyle`
@@ -44,4 +45,33 @@ a {
   text-decoration: none;
 }
 
+`;
+
+export const LanguageControlMain = styled.div`
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  transition: all 0.2s ease;
+  z-index: 999;
+  cursor: pointer;
+  &:hover {
+    letter-spacing: 2px;
+    color: black;
+    background-color: ${(props) => props.theme.color};
+  }
+`;
+
+export const LanguageTogglerMain = styled.button`
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #dddddd;
 `;

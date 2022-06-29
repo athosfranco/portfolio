@@ -3,20 +3,26 @@ import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Contact from "./components/Contact/Contact";
-import { GlobalStyle } from "./globals.styles";
+import { GlobalStyle, LanguageControlMain, LanguageTogglerMain } from "./globals.styles";
 import { ThemeProvider } from "styled-components";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer/Footer";
+import { LanguageControl, LanguageToggler } from "./components/Sidebar/Sidebar.styles";
+import { IoLanguage } from "react-icons/io5";
 
 function App() {
-  //inicializa a biblioteca animateOnScroll
   useEffect(() => {
+    //inicializa a biblioteca animateOnScroll
     AOS.init();
     AOS.refresh();
+
+    //verifica idioma do navegador e ajusta a pagina
+    let userLang = navigator.language || navigator.userLanguage;
+    if (userLang !== "pt-BR") setLang(false);
   }, []);
 
-  //idioma
+  //idioma - "true" = portugues, "false" = ingles
   const [lang, setLang] = useState(true);
   const languageHandler = (boolean) => setLang(boolean);
 
@@ -50,6 +56,12 @@ function App() {
         onGetScrollSection={scrollToSection}
         lang={lang}
       />
+      <LanguageControlMain data-tip={lang ? "Mudar idioma" : "Switch language"} onClick={() => setLang(!lang)}>
+        <LanguageTogglerMain>
+          <IoLanguage style={{ marginRight: "10px" }} />
+          {lang ? "PT-BR" : "EN-US"}
+        </LanguageTogglerMain>
+      </LanguageControlMain>
       <section ref={headerSection}>
         <Header lang={lang} />
       </section>

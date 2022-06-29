@@ -14,6 +14,7 @@ export const data = {
     en: `Hi! My name is Athos Franco. I'm a 26 years old self-taught web developer. My main languages are Java and JavaScipt and i use modern technologies existing in both languages ​​to develop great solutions for the web.`,
 
     resumeUrl: "https://drive.google.com/file/d/1FP5HSgZIgJ8A5Btmlt9WWOFVti4WtEnO/view?usp=sharing",
+    resumeUrlEnglish: "https://drive.google.com/file/d/1DqfPflXd284LbvN8BPh7zHmGdS-VIlTz/view?usp=sharing",
   },
   skills: [
     "Java",
@@ -24,7 +25,9 @@ export const data = {
     "PostgreSQL",
     "REST API",
     "JavaScript ES6+",
+    "TypeScript",
     "React",
+    "Angular",
     "VueJs",
     "NextJs",
     "Bootstrap 5",
